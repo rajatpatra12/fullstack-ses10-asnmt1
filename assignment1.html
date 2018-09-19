@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home page</title>
+</head>
+<body id="body">
+    
+	<script type="text/javascript">
+    //class rectangle with its method
+     class Rectangle{
+        constructor(length,breadth){
+            this.length=length;
+            this.breadth=breadth;
+        }
+        //this method returnng the aarea
+        calculateArea(){
+            console.log(this.length*this.breadth);
+        }
+     }   
+     //creating one obj instance to the class
+     const newrect=new Rectangle(20,20);
+     //calling the method with it
+     newrect.calculateArea();
+
+    </script>
+</body>
+</html>
